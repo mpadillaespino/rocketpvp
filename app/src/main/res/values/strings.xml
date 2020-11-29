@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Rocket CALCY</string>
+    <string name="nav_header_title">Rocket CALCY</string>
+    <string name="nav_header_subtitle">Nuestro propósito es dominar el universo y crear un ejército de Ultraentes.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="letter_digits">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="numbers_digits">0123456789,-.</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_iv_calc">IV Calculator</string>
+    <string name="menu_cd_calc">Enfriamiento</string>
+    <string name="menu_others">Otros</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_extra">Extras</string>
+    <string name="menu_about">Acerca de</string>
+
+    <!-- IvFragment -->
+    <string name="ivfragment_desc">Compara los IV de tus Pokémon con los 25 mejores de IV para PvP.</string>
+    <string name="ivfragment_league">Liga</string>
+    <string name="ivfragment_pokemon">Pokémon</string>
+    <string name="ivfragment_pokemonname">Nombre del pokémon</string>
+    <string name="ivfragment_miniv">Rango de IVs</string>
+    <string name="ivfragment_pokemoniv">IVs de tu pokémon</string>
+    <string name="ivfragment_calculate">Calcular</string>
+    <string name="ivfragment_toast_pokemonnotfound">¡El pokémon ingresado no existe!</string>
+
+    <!-- IvResults -->
+    <string name="ivresults_title">Resultados</string>
+    <string name="ivresults_format_iv">%s / %s / %s</string>
+    <string name="ivresults_format_percent">%s%%</string>
+    <string name="ivresults_format_rank">#%s</string>
+    <string name="ivresults_format_cplvl">%s (Level %s)</string>
+    <string name="ivresults_rank">Rank</string>
+    <string name="ivresults_ivs">IVs</string>
+    <string name="ivresults_level">Level</string>
+    <string name="ivresults_cp">CP</string>
+    <string name="ivresults_percent">%</string>
+    <string name="ivresults_topivs">Top 25 mejores combinaciones</string>
+    <string name="ivresults_share_pokemoninfo_template">Pokemon: %s\nRank: #%s (%s)\nIVs: %s\nCP: %s</string>
+
+    <!-- CooldownFragment -->
+    <string name="cdfragment_location_a">Ubicación origen</string>
+    <string name="cdfragment_location_b">Ubicación destino</string>
+    <string name="cdfragment_location_hint">Latitud, longitud</string>
+    <string name="cdfragment_location_calculated">Distancia calculada</string>
+    <string name="cdfragment_location_format_distance">%s km</string>
+    <string name="cdfragment_location_format_cooldown">Enfriamiento: %s</string>
+    <string name="cdfragment_toast_locationa_invalid">La coordenada de la ubicación de origen no tiene un formato válido.</string>
+    <string name="cdfragment_toast_locationb_invalid">La coordenada de la ubicación de destino no tiene un formato válido.</string>
+
+    <!-- ExtraFragment -->
+    <string name="extrafragment_rankingpvp">Rankings</string>
+    <string name="extrafragment_rankingpvpdesc">Descubre cuales son los mejores Pokémon para cada liga y cada una de las copas mensuales.</string>
+    <string name="extrafragment_fastmoves">Movimientos rápidos</string>
+    <string name="extrafragment_fastmovesdesc">Descubre los ataques rápidos que tienen mejor rendimiento en pvp comparando daño y energía.</string>
+    <string name="extrafragment_chargemoves">Movimientos cargados</string>
+    <string name="extrafragment_chargemovesdesc">Descubre los ataques cargados que tienen mejor rendimiento en pvp comparando daño y energía.</string>
+    <string name="extrafragment_legacymoves">Movimientos legacy</string>
+    <string name="extrafragment_legacymovesdesc">Descubre cuales son los ataques legacy que puede tener cada Pokémon.</string>
+
+    <!-- HomeFragment -->
+    <string name="homefragment_appdescription">¡Bienvenido a Rocket CALCY!   Una aplicación nacida con la finalidad de facilitar información a los jugadores de Pokémon GO. Por favor, siéntete libre de compartir la aplicación siempre que mantengas los créditos a su autor.</string>
+    <string name="homefragment_sendmessage">Enviar comentarios y/o sugerencias</string>
+    <string name="homefragment_createdby">Creado con </string>
+    <string name="homefragment_heart">♥</string>
+    <string name="homefragment_autor"> por MFPE</string>
+    <string name="homefragment_format_version">Versión: %s</string>
+
+</resources>

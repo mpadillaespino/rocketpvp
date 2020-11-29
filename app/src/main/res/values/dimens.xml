@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="extra_margin">40dp</dimen>
+    <dimen name="main_margin">16dp</dimen>
+    <dimen name="normal_margin">12dp</dimen>
+    <dimen name="divider_margin">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+</resources>

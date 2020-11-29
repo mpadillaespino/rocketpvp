@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/main_margin"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvlocationa"
+        style="@style/largeBoldTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cdfragment_location_a"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/lllocationa"
+        android:layout_marginTop="@dimen/divider_margin"
+        app:layout_constraintTop_toBottomOf="@id/tvlocationa"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etlocationa"
+            android:background="@drawable/spinner_background"
+            android:paddingStart="@dimen/divider_margin"
+            android:paddingEnd="@dimen/divider_margin"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="@string/numbers_digits"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="50"
+            android:longClickable="false"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:hint="@string/cdfragment_location_hint"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnPasteA"
+            android:layout_marginStart="@dimen/divider_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_paste"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/main_margin"
+        android:id="@+id/tvlocationb"
+        style="@style/largeBoldTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cdfragment_location_b"
+        app:layout_constraintTop_toBottomOf="@+id/lllocationa"/>
+
+    <LinearLayout
+        android:id="@+id/lllocationb"
+        android:layout_marginTop="@dimen/divider_margin"
+        app:layout_constraintTop_toBottomOf="@id/tvlocationb"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etlocationb"
+            android:background="@drawable/spinner_background"
+            android:paddingStart="@dimen/divider_margin"
+            android:paddingEnd="@dimen/divider_margin"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:longClickable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="@string/numbers_digits"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:hint="@string/cdfragment_location_hint"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnPasteB"
+            android:layout_marginStart="@dimen/divider_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_paste"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/extra_margin"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lllocationb">
+
+        <TextView
+            android:id="@+id/tvDistanceDesc"
+            android:textAlignment="center"
+            style="@style/normalTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            style="@style/extraBigBoldTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvCooldown"
+            style="@style/smallTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/main_margin"
+        android:layout_marginEnd="@dimen/main_margin"
+        android:layout_marginBottom="@dimen/divider_margin"
+        style="@style/MainButtonStyle"
+        android:text="@string/ivfragment_calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
